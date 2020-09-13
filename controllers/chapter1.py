@@ -1,4 +1,4 @@
-from helpers import render_index_html,render_departure_html,render_tour_html
+from helpers import render_index_html, render_departure_html, render_tour_html
 from helpers import render_data_html, render_data_departures_html, render_data_tours
 from data import departures, tours
 
