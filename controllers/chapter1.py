@@ -22,12 +22,13 @@ def check_tour(id):
     except Exception as e:
         return ret, 404
 
+
 def index_html():
     return render_index_html.index_html()
 
 
 def departure_html(departure):
-    ret,status = check_departure(departure)
+    ret, status = check_departure(departure)
     if status == 200:
         return render_departure_html.departure_html(departure)
     else:
